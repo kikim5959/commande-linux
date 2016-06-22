@@ -2,13 +2,15 @@
 <html>
 
 <head>
+	<h1>COMMANDE LINUX</h1>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="style.css" />
 	<title>COMMANDE TERMINAL</title>
 
+	<BODY BGCOLOR="#000000" TEXT="#00FF00" LINK="#00FFFF" VLINK="#00FFFF">
 </head>
 
-<!-- partie 1 -->
+<!-- titre-->
 
 <body>
 	<table border width="33%">
@@ -22,7 +24,7 @@
 
 
 
-		<!-	- 1ere partie -->
+		<!-	- 1ere Tableau -->
 
 
 		<tr>
@@ -61,53 +63,12 @@
 
 </body>
 
-<!-- 2eme partie -->
+<!-- 2eme TABLEAU -->
 
 
-<table border width="33%">
-
-	<tr>
-		<td colspan="3"><strong>BASH RACCOURCI</strong> </td>
-	</tr>
-
-	<td width="25%">CTRL-c</td>
-	<td>Arrêtez commande en cours</td>
-	</tr>
-	<tr>
-		<td>CTRL-z</td>
-		<td>programme de sommeil</td>
-	</tr>
-	<tr>
-		<td>CTRL-a</td>
-		<td> Aller au début de la ligne</td>
-	</tr>
-	<tr>
-		<td>CTRL-e</td>
-		<td>Passez à la fin de la ligne</td>
-	</tr>
-	<tr>
-		<td>CTRL-u</td>
-		<td> Couper du début de la ligne</td>
-	</tr>
-	<td>CTRL-k</td>
-	<td>Couper à la fin de la ligne</td>
-	</tr>
-	<tr>
-		<td> CTRL-r</td>
-		<td> Historique des recherches </td>
-	</tr>
-	<tr>
-		<td>!!</td>
-		<td>Répète la dernière commande</td>
-	</tr>
-</table>
-</div>
 
 
-</table>
 
-
-<!-- 3eme partie -->
 <table border width="33%">
 
 
@@ -117,7 +78,7 @@
 
 	<tr>
 
-		<td width="25%">-une</td>
+		<td width="25%">-un</td>
 		<td>Afficher tous (y compris caché)</td>
 	</tr>
 	<tr>
@@ -152,59 +113,11 @@
 </div>
 
 
-</table>
-
-
-<!--4eme partie  -->
-
-<table border width="30%">
-	<tr>
-		<td colspan="3"><strong>nano Raccourcis</strong> </td>
-	</tr>
-
-	<tr>
-
-		<td width="26%">Ctrl-R</td>
-		<td>Lire fichier</td>
-	</tr>
-	<tr>
-		<td>Ctrl-O</td>
-		<td>Enregistrer le fichier</td>
-	</tr>
-	<tr>
-		<td>Ctrl-X</td>
-		<td> Fermer le fichier</td>
-	</tr>
-	<tr>
-		<td>ALT-A</td>
-		<td>A partir de la ligne</td>
-	</tr>
-	<tr>
-		<td>CTRL-K</td>x
-		<td> Cut marquée texte ou</td>
-	</tr>
-	<td>CTRL-U</td>
-	<td>Coller du texte</td>
-	</tr>
-	<tr>
-		<td>CTRL-W</td>
-		<td>Trouver </td>
-	</tr>
-	<tr>
-
-		<td>ALT-W</td>
-		<td>Trouver la prochaine </td>
-	</tr>
-</table>
-</div>
-
-
-</table>
 
 
 
 
-<!-- 5emepartie -->
+<!-- 3eme TABLEAU-->
 
 
 <table border width="30%">
@@ -237,7 +150,7 @@
 
 </table>
 
-<!-- 6eme partie -->
+<!-- 4eme tableau -->
 
 
 <table border width="30%">
@@ -247,26 +160,117 @@
 
 	<tr>
 
-		<td width="26%">ps</td>
-		<td>Afficher aperçu des processus</td>
+		<td width="26%"> -type</td>
+		<td>Recherche par type de fichier.</td>
 	</tr>
 	<tr>
-		<td>top</td>
-		<td>Afficher les processus en temps réel</td>
+		<td> -user</td>
+		<td>Recherche par propriétaire.</td>
 	</tr>
 	<tr>
-		<td>kill pid</td>
-		<td> Processus avec id Tuez pid</td>
+		<td> -group</td>
+		<td>Recherche par appartenance à un groupe.</td>
 	</tr>
 	<tr>
-		<td>pkill name</td>
-		<td>Processus avec le nom Tuer nom</td>
+		<td> -size</td>
+		<td> Recherche par taille de fichier.</td>
 	</tr>
 	<tr>
-		<td>killall name</td>x
-		<td> Tuer tous les processus avec des noms commençant nom</td>
+		<td> -atime</td>x
+		<td> Recherche par date de dernier accès.</td>
+	</tr>
+	<tr>
+		<td> mtime</td>x
+		<td> Recherche par date de dernière modification.</td>
+	</tr>
+</table>
+
+
+
+<!-- 5eme tableau -->
+
+
+<table border width="33%">
+
+
+	<tr>
+		<td colspan="3"><strong>GREP</strong> </td>
+	</tr>
+
+	<tr>
+
+		<td width="25%">-i</td>
+		<td> Ignorer la casse (ie majuscules, lettres minuscules). </td>
+	</tr>
+	<tr>
+		<td>-v</td>
+		<td>Retour toutes les lignes qui ne correspondent pas au modèle.</td>
+	</tr>
+	<tr>
+		<td>-w</td>
+		<td> Sélectionnez uniquement les matchs qui forment des mots entiers.</td>
+	</tr>
+	<tr>
+		<td>-c</td>
+		<td>Imprimer un nombre de lignes correspondant. Peut être combiné avec l'option -v pour imprimer un nombre de lignes de matchine non</td>
+	</tr>
+	<tr>
+		<td>-l</td>
+		<td> Imprimer le nom de chaque fichier qui contient un match. Normalement utilisé lorsque grep est invoqué avec wildcards pour l'argument de fichier .</td>
+	</tr>
+	<td>-n</td>
+	<td>Imprimer le numéro de la ligne avant chaque ligne qui correspond.</td>
+	</tr>
+	<tr>
+		<td>-r</td>
+		<td>Récursif, lire tous les fichiers dans le répertoire et les sous-répertoires donné. </td>
+	</tr>
+	<tr>
+
+		<td>-m</td>
+		<td>sortie séparées par des virgules</td>
+	</tr>
+</table>
+</div>
+
+
+
+
+
+
+<!--6eme tableau -->
+
+
+<table border width="30%">
+
+
+
+	<tr>
+		<td colspan="3"><strong>CD</strong></td>
+	</tr>
+	<td width="26%">gzip < /dev/cdrom > cdrom.iso.gz</td>
+
+	<td>Enregistrer une copie de cdrom de données</td>
+	</tr>
+	<tr>
+		<td>la dir de mkisofs LABEL | gzip> cdrom.iso.gz	</td>
+		<td>Créer une image cdrom de contenu de dir</td>
+	</tr>
+	<tr>
+		<td>mount -o loop cdrom.iso /mnt/dir</td>
+		<td> Montez l'image de cdrom à / mnt / dir (lecture seule)</td>
+	</tr>
+	<tr>
+		<td>wodim dev=/dev/cdrom blank=fast</td>
+		<td>Effacer un CDRW</td>
+	</tr>
+	<tr>
+		<td>gzip -dc cdrom.iso.gz | wodim -tao dev=/dev/cdrom -v -data -</td>x
+		<td> 	image cdrom Burn (utiliser --prcap pour confirmer dev)	</td>
 	</tr>
 
 </table>
+
+<p>&copyAkimm_-</p>
 
 </html>

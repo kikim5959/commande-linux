@@ -1,5 +1,6 @@
         td {
             border-color:black;
+
         }
         html, {
             margin: 0;
@@ -15,18 +16,15 @@
             display: inline-table;
             margin-bottom: 1%;
             height: auto;
+            color: black;
         }
         tr {
             font-style: italic;
             font-family: serif;
-
+            color: green;
         }
 
 
 h1 {
 
   text-align: center
-
-  }
-
-	<BODY BGCOLOR="#000000" TEXT="#00FF00" LINK="#00FFFF" VLINK="#00FFFF">
